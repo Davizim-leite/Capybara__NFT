@@ -22,14 +22,13 @@ body{
     background-color: var(--azul-escuro);
     color: var(--branco);
     font-size: 18px;
-    height: 100vh;
-    margin: 3rem;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .container__sessao{
@@ -115,6 +114,20 @@ hr{
     color: var(--Ciano);
 }
 
+.rodape{
+    background-color: var(--azul-meio);
+    color: var(--azul-escuro);
+    width: 92.89%;
+    padding: 3rem;
+    margin-top: 2%;
+}
+
+.fa-instagram, .fa-github{
+    color: var(--azul-escuro);
+    font-size: 2em;
+    padding-right: 1rem;
+    margin-top: 1rem ;
+}
 
 @media screen and (max-width: 845px) {
 
