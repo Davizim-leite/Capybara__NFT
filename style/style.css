@@ -125,4 +125,16 @@ hr{
     .container__sessao{
         width: 70%;
     }
+
+    .lista__itens{
+        font-size: 13px;
+    }
+
+    .container__divisao{
+        gap: .5rem;
+    }
+
+    .divisao__img{
+        width: 10%;
+    }
 }
