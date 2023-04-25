@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:300,regular,500,600);
+
+
+:root{
+    --font-principal: "Outfit";
+    --branco: #ffffff;
+    --azul-claro: #339C62 ;
+    --azul-meio: #D9A05B;
+    --azul-escuro: #A6653F;
+    --Ciano: #2198A6;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: var(--font-principal);
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    font-size: 18px;
+    height: 100vh;
+    margin: 3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__sessao{
+    background-color: var(--azul-meio);
+    padding: 1.5rem;
+    border-radius: .8rem;
+    width: 30%;
+}
+
+.img__NFT{
+    border-radius: .9rem;
+    width: 100%;
+}
+
+.container__titulo{
+    font-weight: 500;
+    padding: 1rem 0 0 0 ;
+}
+
+.container__paragrafo{
+    color: var(--azul-claro);
+    font-weight: 400;
+    padding: 1rem 0 ;
+}
+
+.container__lista{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 1rem 0;
+}
+
+.lista__itens{
+    font-weight:400;
+    color: var(--azul-claro);
+}
+
+.preço{
+    padding: 0 1.2rem ;
+    color: var(--Ciano);
+    background-image: url(/assets/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    
+}
+
+.relogio{
+    padding: 0 0 0 1.5rem;
+    background-image: url(/assets/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-position: 2px;
+}
+
+hr{
+    border-color:var(--azul-claro);
+}
+
+.container__divisao{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 .5rem 0 ;
+    gap: 1rem;
+}
+
+.divisao__img{
+    width: 6%;
+}
+
+.divisao__paragrafo{
+    color: var(--azul-claro);
+}
+
+.divisao__link{
+    color: var(--branco) ;
+}
+
+
+.container__titulo:hover{
+    color: var(--Ciano);
+    cursor:pointer  ;
+}
+
+.divisao__link:hover{
+    color: var(--Ciano);
+}
+
+
+@media screen and (max-width: 845px) {
+
+    body{
+        font-size: 14px;
+    }
+
+    .container__sessao{
+        width: 70%;
+    }
+}
